@@ -24,66 +24,59 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-secondary"
             style="flex-basis: auto; background-color: rgb(97, 97, 255) !important;">
             <div class="container-fluid">
-                <a href="file:///C:/Users/HP/Desktop/EVS/Project/AdministratorDashboard.html"><img src="pharmacy.png"
+                <a href="file:///C:/Users/HP/Desktop/EVS/Project/Project.html"><img src="pharmacy.png"
                         style="width: 40px !important; height: 40px !important; "></a>
-                <a class="navbar-brand " href="file:///C:/Users/HP/Desktop/EVS/Project/AdministratorDashboard.html"
+                <a class="navbar-brand " href="file:///C:/Users/HP/Desktop/EVS/Project/Project.html"
                     style="padding-left: 10px; "><strong>Pharmacy System</strong></a>
-                
+
 
                 <div class="collapse navbar-collapse hh" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         &nbsp;&nbsp;
 
-                        &nbsp; &nbsp;
+                        &nbsp;&nbsp;
                 </div>
             </div>
         </nav>
-
-        
-        <div class="form-box">
-            
-            <form id="login" class="input-group" action="connection.php" method="post">
-                <table>
-                    <tr class="l">
-                        <td>
-                            <h3>LOGIN</h3>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <select class="opt" name="Destination">
-
-                                <option value="Destination">Admin</option>
-                                <option value="Destination">Manangement</option>
-                                <option value="Destination">Transaction</option>
-                                <option value="Destination">Reporting</option>
-
-                            </select>
-                        </td>
-                    </tr>
-                    <tr class="t">
-                        <td>
-                            <input type="password" class="pass" name="pass" placeholder=" Account Pin" required>
-
-                        </td>
-
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <br>
-                            <button type="submit" class="submit">Log In</button>
-                        </td>
-                    </tr>
-                </table>
-
-            </form>
-
-
-
+        <div class="tran">
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample" id="transcation">
+                Transcation
+            </a>
         </div>
+
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true" style="background: #4b56f3 !important;">
+                        Select
+                    </a>
+                    <a href="http://127.0.0.1:5500/Invoice.html" id="invoice" onmouseover="invoice()"
+                        onmouseout="invoice1()" class="list-group-item list-group-item-action">Invoice</a>
+                    <a href="#" id="previous" onmouseover="previous()" onmouseout="previous1()"
+                        class="list-group-item list-group-item-action">Previous Invoice</a>
+                    <a href="#" id="refund" onmouseover="refund()" onmouseout="refund1()"
+                        class="list-group-item list-group-item-action">Refund</a>
+                    <a href="#" id="exchange" onmouseover="exchange()" onmouseout="exchange1()"
+                        class="list-group-item list-group-item-action ">Exchange</a>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
 
 
     </div>
