@@ -1,70 +1,63 @@
 * {
     font-family: sans-serif;
-      
-}
-body{
-    
-    
-}
-.container-1 {
-    width: 100%;
-    height: 100vh;   
-    background-image: url(ph.jpg); 
-    background-size: cover;
-    background-position:center;
-    position: absolute;
-    
 }
 
+.container-1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
 
 .navbar-nav {
     margin-left: auto !important;
-    
 }
-.navbar{
+
+.navbar {
     background-color: cornflowerblue;
     /* background: linear-gradient(to right,rgb(73, 73, 253), rgb(125, 125, 253),rgb(208, 208, 255)); */
 }
-#home,#voice,#login{
+
+#home,
+#voice,
+#login {
     color: white !important;
 }
 
 
 /* linear-gradient(to top, #8267fd, #bfeefc) */
+
 .form-box {
     width: 380px;
     height: 400px;
     position: relative;
     margin: 6% auto;
     background: #fff;
-    border-radius: 30px; 
-    padding: 5px;   
-    box-shadow: 0 0 20px 9px  #4b56f338;
-    
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 0 0 20px 9px #4b56f338;
 }
 
-.l{
+.l {
     color: #3c10ff;
     text-align: center;
-    
-    
 }
-.l h3{
-    padding-top: 60px ;  
+
+.l h3 {
+    padding-top: 60px;
     font-family: sans-serif;
     font-size: 32px;
     font-weight: 700;
-
 }
 
 .input-group {
-    
     position: absolute;
     width: 85%;
-    padding-left: 55px ;
-    
+    padding-left: 55px;
 }
-.opt{
+
+.opt {
     padding: 10px 0;
     margin: 10px 0;
     width: 260px;
@@ -75,13 +68,13 @@ body{
     border-right: 0;
     outline: none;
     border-bottom: 1px solid black;
-    
 }
-.a{
+
+.a {
     padding-top: 40px;
 }
 
-.pass{
+.pass {
     width: 260px;
     height: 40px;
     padding: 10px 0;
@@ -94,15 +87,13 @@ body{
     border-right: 0;
     outline: none;
     border-bottom: 1px solid black;
-    
 }
+
 .check-box {
     font-size: 10px;
-    
 }
- 
-.submit{
-    
+
+.submit {
     width: 50%;
     padding: 10px 30px;
     cursor: pointer;
@@ -117,10 +108,9 @@ body{
     font-weight: bold;
 }
 
-p{
-	font-size: 10px;
+p {
+    font-size: 10px;
 }
-
 
 .form-box1 {
     width: 330px;
@@ -129,154 +119,649 @@ p{
     margin: 6% auto;
     background: #fff;
     color: #4b56f3;
-    
     padding: 5px;
-    padding-top: 10px ; 
-    box-shadow: 0 0 20px 9px  #4b56f338;
+    padding-top: 10px;
+    box-shadow: 0 0 20px 9px #4b56f338;
     font-size: 11px;
-    
 }
 
-td{
+td {
     width: 60px;
 }
+
 .input-group1 {
-    
     position: absolute;
     width: 85%;
-    padding-left: 15px ;
-    
+    padding-left: 15px;
 }
 
-.summary{
+.summary {
     text-align: center;
 }
-#date{
-   text-align: right;
-    
+
+#date {
+    text-align: right;
 }
-#ref{  
+
+#ref {
     padding-left: 80px;
 }
 
-
-#Name, #Qty,#Price,#Total{
+#Name,
+#Qty,
+#Price,
+#Total {
     width: 70px;
     border: 1px solid black;
     border-top: none;
     border-left: none;
     border-right: none;
-    
 }
-#gross,#discount,#net{
-    text-align: right; 
-    
+
+#gross,
+#discount,
+#net {
+    text-align: right;
 }
-#pr{
+
+#pr {
     padding-right: 0%;
     text-align: right;
     padding-left: 20px;
-    
 }
 
-#transcation{
+#transcation {
     background: #4b56f3;
     margin: 0;
     position: absolute;
     top: 100px;
     left: 47%;
     transform: translateY(-50%);
-
 }
 
-.round{
+.round {
     border-radius: 30px;
     background: #4b56f3;
-    box-shadow: 0 0 20px 9px  #4b56f338;
+    box-shadow: 0 0 20px 9px #4b56f338;
 }
 
-.card_1{
-    
+.card_1 {
     padding-left: 40px;
-    top: 100px; 
+    top: 100px;
     transform: translateY(+60%);
 }
 
-
-.card_2{
+.card_2 {
     padding-left: 10%;
-    transform: translateY(+90%);   
+    transform: translateY(+90%);
 }
 
-.card_21{
+.card_21 {
     padding-left: 10%;
-    transform: translateY(+60%);   
+    transform: translateY(+60%);
 }
 
-.card_22{
+.card_22 {
     padding-left: 10%;
-    transform: translateY(+90%); 
-    
-      
+    transform: translateY(+90%);
 }
-.card_31{
+
+.card_31 {
     padding-left: 20%;
-    transform: translateY(70%);  
+    transform: translateY(70%);
 }
 
-.card_32{
+.card_32 {
     padding-left: 20%;
-    transform: translateY(100%);  
-    
+    transform: translateY(100%);
 }
 
-.card_41{
+.card_41 {
     padding-left: 40%;
-    transform: translateY(120%);  
+    transform: translateY(120%);
 }
 
-.card_btn{
-    transform: translateX(+26%);  
+.card_btn {
+    transform: translateX(+26%);
 }
 
-.card_btn1{
-    transform: translateX(+14%);   
+.card_btn1 {
+    transform: translateX(+14%);
 }
 
-.card_btn2{
+.card_btn2 {
     transform: translateX(+22%);
 }
-.card_btn3{
+
+.card_btn3 {
     transform: translateX(+19%);
 }
 
-.pic{
-    height: 17vh ;
+.pic {
+    height: 17vh;
     cursor: pointer;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 60px;  
-    
+    padding-top: 60px;
 }
 
-.pic1{
-    height: 17vh ; 
-    padding-top: 50px ;
+.pic1 {
+    height: 17vh;
+    padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
     cursor: pointer;
-    
 }
-/* #user,#staff,#account,#sale,#report,#purchase,#inventory{
+
+h4 {
+    font-weight: 500;
+}
+
+.form-box2 {
+    width: 550px;
+    height: 50vh;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    color: black;
+    padding: 5px;
+    padding-top: 10px;
+    box-shadow: 0 0 20px 9px #4b56f338;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.input-group2 {
+    width: 100%;
+    padding: 2%;
+}
+
+table {
+    width: 520px;
+}
+
+.new {
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 200px;
+    height: 38px;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+}
+
+label {
+    font-size: small;
+}
+
+.usermodule {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    transform: translateY(180%);
+    cursor: pointer;
+}
+
+.adduser {
+    transform: translateY(-100%);
+}
+
+.updateuser {
+    transform: translateY(0);
+}
+
+.deleteuser {
+    transform: translateY(100%);
+}
+
+#adduser {
+    width: 150px;
+    height: 40px;
+}
+
+#updateuser {
+    width: 150px;
+    height: 40px;
+}
+
+#deleteuser {
+    width: 150px;
+    height: 40px;
+}
+
+.userrole {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 10%;
+    top: 3%;
+    transform: translateY(20%);
+    cursor: pointer;
+}
+
+.userform-box {
+    width: 380px;
+    height: 300px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 0 0 20px 9px #4b56f338;
+}
+
+#username {
+    height: 30px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    outline: none;
+}
+
+#userrole {
+    height: 30px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    outline: none;
+}
+
+#userid {
+    height: 30px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    outline: none;
+}
+
+#userpass {
+    height: 30px;
+    outline: none;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+#submit {
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
     outline: none;
     border: none;
-    background: #fff;
-    color: #3c10ff;
+    background: DodgerBlue;
+    color: white;
+}
+
+.role {
+    height: 30px;
+    width: 180px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.user1 {
+    transform: translateY(0%);
+}
+
+.user2 {
+    transform: translateY(10%);
+}
+
+.user3 {
+    transform: translateY(20%);
+}
+
+.user4 {
+    transform: translateY(30%);
+}
+
+.user5 {
+    transform: translateY(40%);
+    text-align: center;
+}
+
+#empid,
+#empname,
+#empemail,
+#empphone,
+#dob,
+#empaddress,
+#emprole {
+    outline: none;
+    border: solid 1px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+#Emptable td {
+    border: none;
+}
+
+#dob {
+    width: auto;
+}
+
+#empsubmit {
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+    border: none;
+    background: DodgerBlue;
+    color: white;
+    transform: translateX(-55%);
+    cursor: pointer;
+}
+
+.backbutton {
+    padding-top: 10px;
+}
+
+.backbutton button {
+    height: 50px;
+    padding-top: 5px;
+    background: white;
+    color: dodgerblue;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+    transform: translateX(10%);
+}
+
+.backbutton button img {
+    width: 20px;
+}
+
+
+/* #productid,
+#product,
+#suppliername,
+#manuofdrug,
+#manudate,
+#expirydate,
+#saleprice,
+#returndate,
+#location {
+    outline: none;
+    border: black 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
 } */
 
+.EmployeeForm {
+    background: rgba(196, 193, 193, 0.39);
+}
 
- h4{
-     
-    font-weight: 500;
+.EmployeeNav {
+    padding: none;
+    margin: none;
+    outline: none;
+    padding-top: 20px;
+    /* background: rgb(216, 214, 214); */
+    height: 100vh;
+    background: rgb(253, 251, 249);
+    box-shadow: 0px 5px 20px 5px rgb(172, 172, 172);
+}
+
+.EmployeeNav table {
+    font-size: large;
+    font-weight: lighter;
+}
+
+.EmployeeNav table tr {
+    cursor: pointer;
+}
+
+.EmployeeNav table tr td {
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.EmployeeNav table tr td a {
+    text-decoration: none;
+    color: rgb(117, 116, 116);
+}
+
+.EmployeeNav table tr :hover {
+    background-color: #5fb7ff;
+}
+
+.EmployeeNav table tr :hover {
+    color: white;
+}
+
+.EmployeeNav table tr:hover a {
+    background-color: #5fb7ff;
+    color: #fff;
+}
+
+.EmployeeNav table tr td span img {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-15%);
+}
+
+.Empbutton {
+    padding-top: 20px;
+}
+
+.Empbutton button {
+    background: rgb(216, 214, 214);
+    outline: none;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    padding-top: 5px;
+}
+
+.Empbutton button a {
+    text-decoration: none;
+    /* color: rgb(117, 116, 116); */
+    color: rgb(82, 82, 82);
+}
+
+.Empbutton button:hover {
+    background-color: dodgerblue;
+}
+
+.Empbutton button:hover {
+    color: white;
+}
+
+.Empbutton button:hover a {
+    color: white;
+}
+
+.Empbutton button span img {
+    width: 30px;
+    height: 30px;
+    transform: translateY(-7%);
+}
+
+.Empsearch {
+    padding-top: 10px;
+}
+
+.Empsearch button {
+    outline: none;
+    border: none;
+    background: rgb(216, 214, 214);
+    /* color: rgb(117, 116, 116); */
+    color: rgb(82, 82, 82);
+    height: 35px;
+    border-radius: 5px;
+    right: 0%;
+}
+
+.Empsearch button:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.Empsearch button span img {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-7%);
+}
+
+.Employeeform {
+    background: #f6f7e8;
+    width: 100%;
+    z-index: +1;
+    position: absolute;
+    display: none;
+    background: transparent;
+}
+
+.Employeeform table {
+    background: rgb(253, 251, 249);
+    /* background: #f5f0f0; */
+    width: 35%;
+    box-shadow: 0px 0px 15px 0px rgb(216, 214, 214);
+    border-radius: 20px;
+    height: 500px;
+}
+
+.Employeeform table tr {
+    border: none;
+}
+
+.Employeeform table tr td {
+    border: none;
+    outline: none;
+    padding-left: 40px;
+}
+
+.Employeeform table tr td h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.Employeeform table tr td label {
+    font-weight: 600;
+}
+
+.Employeeform table tr td select {
+    background: transparent;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.Employeeform table tr td input {
+    border: 1px black solid;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.Employeeform table tr td button {
+    background: dodgerblue;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    transform: translateX(140%);
+    box-shadow: 0px 0px 1px 1px blue;
+}
+
+.Emptable th {
+    background: black;
+    color: white;
+}
+
+.Emptable td {
+    background: dodgerblue;
+    color: white;
+    font-size: 14px;
+}
+
+.Emptable tr td span img {
+    cursor: pointer;
+}
+
+.Emptable {
+    border: none;
+}
+
+#openNav {
+    display: none;
+}
+
+.openNav button {
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+#closeNav {
+    display: none;
+}
+
+.container-fluid button {
+    background: rgb(97, 97, 255);
+    border: none;
+    display: none;
+}
+
+
+/* @media only screen and (max-width:992px) {
+    .EmployeeNav table tr td {
+        font-size: 16px;
+        font-weight: 700;
+    }
+} */
+
+@media only screen and (max-width:768px) {
+    .Emptable table {
+        font-size: 12px;
+        height: 40px;
+    }
+    .container-fluid button {
+        background: rgb(97, 97, 255);
+        border: none;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    #closeNav {
+        display: block;
+    }
+    .openNav button {
+        display: block;
+    }
+    .EmployeeNav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:577px) {
+    .EmployeeNav {
+        display: block;
+    }
 }

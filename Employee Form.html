@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="x-icon" href="pharmacy.png">
+    <title>Pharmacy System</title>
+
+</head>
+
+<body id="body">
+
+
+    <div class="container-1">
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary" style="flex-basis: auto; background-color: rgb(97, 97, 255) !important;">
+            <div class="container-fluid">
+                <a href="file:///C:/Users/HP/Desktop/EVS/Project/Project.html"><img src="pharmacy.png" style="width: 40px !important; height: 40px !important; "></a>
+                <a class="navbar-brand " href="file:///C:/Users/HP/Desktop/EVS/Project/Project.html" style="padding-left: 10px; align-items: flex-start; "><strong>Pharmacy System</strong></a>
+                <button type="button">
+                    <span><img src="images/menu.png" style="width: 30px; height: 30px; " id="open"
+                            onclick="openNav()"></span>
+                    <span><img src="images/menu.png" style="width: 30px; height: 30px; display: none;" id="close"
+                            onclick="closeNav()"></span>
+                </button>
+
+                <div class="collapse navbar-collapse hh" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        &nbsp;&nbsp; &nbsp; &nbsp;
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <form class="Employeeform" id="myForm">
+            <center>
+                <table class="table">
+                    <tr>
+                        <td colspan="2" style="padding:0%;">
+                            <h3>
+                                Employee Form
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Employee ID
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Employee ID" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Employee Name
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Employee Name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Employee Email
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Email@gmail.com" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Employee Phone
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="Employee Number" required style="width: 177px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Gender
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="Gender" required> Male
+                            <input type="radio" name="Gender" required> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Date of Birth
+                            </label>
+                        </td>
+                        <td>
+                            <select name="DOB" id="dob">
+                                <option value="Date of Birth(DOB)">Day</option>
+                                <option value="Date of Birth(DOB)">1</option>
+                                <option value="Date of Birth(DOB)">2</option>
+                                <option value="Date of Birth(DOB)">3</option>
+                                <option value="Date of Birth(DOB)">4</option>
+                                <option value="Date of Birth(DOB)">5</option>
+                                <option value="Date of Birth(DOB)">6</option>
+                                <option value="Date of Birth(DOB)">7</option>
+                                <option value="Date of Birth(DOB)">8</option>
+                                <option value="Date of Birth(DOB)">9</option>
+                                <option value="Date of Birth(DOB)">10</option>
+                                <option value="Date of Birth(DOB)">11</option>
+                                <option value="Date of Birth(DOB)">12</option>
+                                <option value="Date of Birth(DOB)">13</option>
+                                <option value="Date of Birth(DOB)">14</option>
+                                <option value="Date of Birth(DOB)">15</option>
+                                <option value="Date of Birth(DOB)">16</option>
+                                <option value="Date of Birth(DOB)">17</option>
+                                <option value="Date of Birth(DOB)">18</option>
+                                <option value="Date of Birth(DOB)">19</option>
+                                <option value="Date of Birth(DOB)">20</option>
+                                <option value="Date of Birth(DOB)">21</option>
+                                <option value="Date of Birth(DOB)">22</option>
+                                <option value="Date of Birth(DOB)">23</option>
+                                <option value="Date of Birth(DOB)">24</option>
+                                <option value="Date of Birth(DOB)">25</option>
+                                <option value="Date of Birth(DOB)">26</option>
+                                <option value="Date of Birth(DOB)">27</option>
+                                <option value="Date of Birth(DOB)">28</option>
+                                <option value="Date of Birth(DOB)">29</option>
+                                <option value="Date of Birth(DOB)">30</option>
+                                <option value="Date of Birth(DOB)">31</option>
+
+                            </select>
+                            <select id="dob" name="Date of Birth(DOB)">
+                                <option value="Date of Birth(DOB)">Month</option>
+                                <option value="Date of Birth(DOB)">Janurary</option>
+                                <option value="Date of Birth(DOB)">Febuary</option>
+                                <option value="Date of Birth(DOB)">March</option>
+                                <option value="Date of Birth(DOB)">April</option>
+                                <option value="Date of Birth(DOB)">May</option>
+                                <option value="Date of Birth(DOB)">June</option>
+                                <option value="Date of Birth(DOB)">July</option>
+                                <option value="Date of Birth(DOB)">August</option>
+                                <option value="Date of Birth(DOB)">September</option>
+                                <option value="Date of Birth(DOB)">Octuber</option>
+                                <option value="Date of Birth(DOB)">November</option>
+                                <option value="Date of Birth(DOB)">December</option>
+                            </select>
+
+                            <select id="dob" name="Date of Birth(DOB)">
+                                <option value="Date of Birth(DOB)">Year</option>
+                                <option value="Date of Birth(DOB)">1999</option>
+                                <option value="Date of Birth(DOB)">2000</option>
+                                <option value="Date of Birth(DOB)">2001</option>
+                                <option value="Date of Birth(DOB)">2002</option>
+                                <option value="Date of Birth(DOB)">2003</option>
+                                <option value="Date of Birth(DOB)">2004</option>
+                                <option value="Date of Birth(DOB)">2005</option>
+                                <option value="Date of Birth(DOB)">2006</option>
+                                <option value="Date of Birth(DOB)">2007</option>
+                                <option value="Date of Birth(DOB)">2008</option>
+                                <option value="Date of Birth(DOB)">2009</option>
+                                <option value="Date of Birth(DOB)">2010</option>
+                                <option value="Date of Birth(DOB)">2011</option>
+                                <option value="Date of Birth(DOB)">2012</option>
+                                <option value="Date of Birth(DOB)">2013</option>
+                                <option value="Date of Birth(DOB)">2014</option>
+                                <option value="Date of Birth(DOB)">2015</option>
+                                <option value="Date of Birth(DOB)">2016</option>
+                                <option value="Date of Birth(DOB)">2017</option>
+                                <option value="Date of Birth(DOB)">2018</option>
+                                <option value="Date of Birth(DOB)">2019</option>
+                                <option value="Date of Birth(DOB)">2020</option>
+                                <option value="Date of Birth(DOB)">2021</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Timing
+                            </label>
+                        </td>
+                        <td>
+                            <select name="Timig">
+                                <option value="Timing">From</option>
+                                <option value="Timing">12 Am</option>
+                                <option value="Timing">1 Am</option>
+                                <option value="Timing">2 Am</option>
+                                <option value="Timing">3 Am</option>
+                                <option value="Timing">4 Am</option>
+                                <option value="Timing">5 Am</option>
+                                <option value="Timing">6 Am</option>
+                                <option value="Timing">7 Am</option>
+                                <option value="Timing">8 Am</option>
+                                <option value="Timing">9 Am</option>
+                                <option value="Timing">10 Am</option>
+                                <option value="Timing">11 Am</option>
+                                <option value="Timing">12 Pm</option>
+                                <option value="Timing">1 Pm</option>
+                                <option value="Timing">2 Pm</option>
+                                <option value="Timing">3 Pm</option>
+                                <option value="Timing">4 Pm</option>
+                                <option value="Timing">5 Pm</option>
+                                <option value="Timing">6 Pm</option>
+                                <option value="Timing">7 Pm</option>
+                                <option value="Timing">8 Pm</option>
+                                <option value="Timing">9 Pm</option>
+                                <option value="Timing">10 Pm</option>
+                                <option value="Timing">11 Pm</option>
+                                <option value="Timing">12 Pm</option>
+                            </select>
+                            <label>
+                                -
+                            </label>
+                            <select name="Timig">
+                                <option value="Timing">To</option>
+                                <option value="Timing">12 Am</option>
+                                <option value="Timing">1 Am</option>
+                                <option value="Timing">2 Am</option>
+                                <option value="Timing">3 Am</option>
+                                <option value="Timing">4 Am</option>
+                                <option value="Timing">5 Am</option>
+                                <option value="Timing">6 Am</option>
+                                <option value="Timing">7 Am</option>
+                                <option value="Timing">8 Am</option>
+                                <option value="Timing">9 Am</option>
+                                <option value="Timing">10 Am</option>
+                                <option value="Timing">11 Am</option>
+                                <option value="Timing">12 Pm</option>
+                                <option value="Timing">1 Pm</option>
+                                <option value="Timing">2 Pm</option>
+                                <option value="Timing">3 Pm</option>
+                                <option value="Timing">4 Pm</option>
+                                <option value="Timing">5 Pm</option>
+                                <option value="Timing">6 Pm</option>
+                                <option value="Timing">7 Pm</option>
+                                <option value="Timing">8 Pm</option>
+                                <option value="Timing">9 Pm</option>
+                                <option value="Timing">10 Pm</option>
+                                <option value="Timing">11 Pm</option>
+                                <option value="Timing">12 Pm</option>
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Address
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Employee Address" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>
+                                Role
+                            </label>
+                        </td>
+                        <td>
+                            <select name="Emp Role">
+                                <option value="Emp Role">Admin</option>
+                                <option value="Emp Role">Manager</option>
+                                <option value="Emp Role">Pharmacist</option>
+                                <option value="Emp Role">Cashier/Salesman</option>
+
+                            </select>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">
+                                Submit
+                            </button>
+                        </td>
+                        <td>
+                            <button type="reset" onclick="closeForm()">
+                                Close
+                            </button>
+                        </td>
+                    </tr>
+                    <br>
+                </table>
+
+            </center>
+        </form>
+
+        <div class="container" style="margin: none; max-width: 100%;">
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-2 col-lg-2 EmployeeNav " id="myNav">
+                    <table class="table ">
+                        <tr>
+                            <td><span>
+                                    <img src="images/pharmacist.png">
+                                </span>
+                                <a href="#">Pharmacist</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/dashboard.png">
+                                </span>
+                                <a href="#">Dashboard</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/team.png">
+                                </span>
+                                <a href="#">Staff</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/inventory (1).png">
+                                </span>
+                                <a href="#">Inventory</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><span>
+                                    <img src="images/purchase (1).png">
+                                </span>
+                                <a href="#">Purchase </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/dollar.png">
+                                </span>
+                                <a href="#">Sale </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/accountpng.png">
+                                </span>
+                                <a href="#">Accounts</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/report (1).png">
+                                </span>
+                                <a href="#">Report</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>
+                                    <img src="images/Logout.png">
+                                </span>
+                                <a href="#">
+                                    Logout
+                                </a>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class=" col-sm-12 col-md-10   col-lg-10 EmployeeForm">
+                    <div class="Empbutton">
+                        <button type="button">
+                            <a href="#">
+                                <span>
+                                    <img src="images/arrow (1).png">
+                                </span>
+                                Back to Main Dashboard
+                            </a>
+
+                        </button>
+                    </div>
+                    <div class="row Empsearch">
+                        <div class="col-sm-12 col-lg-8">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                        &nbsp;
+                        <div class=" col-sm-12 col-lg-3">
+                            <button onclick="openForm()">
+                                <span>
+                                    <img src="images/add.png">
+                                </span>
+                                Add New Employee
+                            </button>
+                        </div>
+                    </div>
+                    &nbsp;
+                    <div class="Emptable table-responsive">
+                        <table class="table ">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Employee ID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Gender</th>
+                                <th scope="col">DOB</th>
+                                <th scope="col">Timing</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>1324</td>
+                                <td>Junaid</td>
+                                <td>junaidabas3534012gmail.com</td>
+                                <td>03045442296</td>
+                                <td>Male</td>
+                                <td>1/1/1</td>
+                                <td>7 Am- 5 Pm</td>
+                                <td>Commercial</td>
+                                <td>Admin</td>
+                                <td>
+                                    <span title="Update">
+                                        <img src="images/update.png" style="width: 20px; height: 20px;">
+                                    </span>
+                                    <span title="Delete">
+                                        <img src="images/delete.png" style="width: 20px; height: 20px;">
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2143</td>
+                                <td>Hamid</td>
+                                <td>hamidfaraz@gmail.com</td>
+                                <td>03000000000</td>
+                                <td>Male</td>
+                                <td>1/1/2</td>
+                                <td>7 Am- 5 Pm</td>
+                                <td>Scheme 3</td>
+                                <td>Admin</td>
+                                <td>
+                                    <span title="Update">
+                                        <img src="images/update.png" style="width: 20px; height: 20px;">
+                                    </span>
+                                    <span title="Delete">
+                                        <img src="images/delete.png" style="width: 20px; height: 20px;">
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="backbutton">
+            <button type="button" class="btn" id="backbutton" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Back">
+                <span >
+                    <img src="images\arrow.png" style="width: 40px; ">
+                </span>
+                
+            </button>
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin="anonymous ">
+    </script>
+    <script src="index.js ">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js " integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script>
+    -->
+</body>
+
+</html>

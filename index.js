@@ -1,5 +1,3 @@
-
-
 function home() {
     document.getElementById("home").style.background = "rgb(18, 77, 18)";
     document.getElementById("home").style.color = "White";
@@ -71,6 +69,7 @@ function exchange1() {
     document.getElementById("exchange").style.background = "white";
     document.getElementById("exchange").style.color = "black";
 }
+
 function user() {
     document.getElementById("user").style.background = "#4b56f3";
     document.getElementById("user").style.color = "white";
@@ -91,6 +90,7 @@ function staff1() {
     document.getElementById("staff").style.background = "#fff";
     document.getElementById("staff").style.color = "black";
 }
+
 function purchase() {
     document.getElementById("purchase").style.background = "#4b56f3";
     document.getElementById("purchase").style.color = "white";
@@ -100,6 +100,7 @@ function purchase1() {
     document.getElementById("purchase").style.background = "#fff";
     document.getElementById("purchase").style.color = "black";
 }
+
 function account() {
     document.getElementById("account").style.background = "#4b56f3";
     document.getElementById("account").style.color = "white";
@@ -156,7 +157,24 @@ function printpage() {
     var data = document.getElementById("data").innerHTML;
     document.getElementById("body").innerHTML = data;
     window.print();
-
 }
 
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
 
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
+
+function openNav() {
+    document.getElementById("myNav").style.display = "block";
+    document.getElementById("open").style.display = "none";
+    document.getElementById("close").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+    document.getElementById("close").style.display = "none";
+    document.getElementById("open").style.display = "block";
+}
