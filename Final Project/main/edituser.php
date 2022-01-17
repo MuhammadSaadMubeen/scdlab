@@ -23,9 +23,10 @@ Pharmacy Management System
 <span>Role : </span>
 <select name="position" style="width:265px; height:30px; margin-left:-5px;" >
 	<option><?php echo $row['position']; ?></option>
-        <option>admin</option>
+        <option>Admin</option>
+        <option>Manager</option>
+        <option>Pharmacist</option>
         <option>Cashier</option>
-        <option>receptionist</option>
 	</select><br>
 
 
