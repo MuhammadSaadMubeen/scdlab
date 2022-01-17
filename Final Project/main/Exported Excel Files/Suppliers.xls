@@ -1,0 +1,24 @@
+
+		<table>
+			<thead>
+				<tr>
+                <th> Supplier </th>
+                <th> Contact Person </th>
+                <th> Address </th>
+                <th> Contact No.</th>
+                <th> Note</th>
+                </tr>
+			<tbody>
+	
+				<tr>
+                <td>Usman</td>
+			<td>Ali Khan</td>
+			<td>H # 1, St 1, Saddar, Rwp</td>
+			<td>0300-0010011</td>
+			<td>Medicines Supplier</td>
+				</tr>
+	
+			</tbody>
+			
+		</table>
+	

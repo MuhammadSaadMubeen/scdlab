@@ -1,0 +1,28 @@
+
+		<table>
+			<thead>
+				<tr>
+                <th> Customer Name Name </th>
+                <th> Address </th>
+                <th> Contact Number</th>
+                <th> Product Name</th>
+                <th> Total (PKR)</th>
+                <th> Note </th>
+                <th> Due Date </th>
+				</tr>
+			<tbody>
+	
+				<tr>
+                <td>Umar Farooq</td>
+			    <td>N/A</td>
+			    <td>N/A</td>
+			    <td>Lays (Salted)</td>
+			    <td>200</td>
+			    <td>Unpaid</td>
+			    <td>2022-01-05</td>
+				</tr>
+	
+			</tbody>
+			
+		</table>
+	

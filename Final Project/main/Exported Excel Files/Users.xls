@@ -1,0 +1,43 @@
+
+		<table>
+			<thead>
+				<tr>
+                <th> Employee Name </th>
+                <th> Role</th>
+                <th> Username </th>
+                <th> Password </th>
+                </tr>
+			<tbody>
+	
+				<tr>
+                <td>Furqan</td>
+                <td>Cashier</td>
+                <td>Cashier</td>
+                <td>Cashier123</td>
+                </tr>
+	
+				<tr>
+                <td>Umar</td>
+                <td>Admin</td>
+                <td>Administrator</td>
+                <td>Admin123</td>
+                </tr>
+	
+				<tr>
+                <td>Ali</td>
+                <td>Pharmacist</td>
+                <td>Pharma</td>
+                <td>Pharma123</td>
+                </tr>
+	
+				<tr>
+                <td>Habib</td>
+                <td>Manager</td>
+                <td>Manager</td>
+                <td>Manager123</td>
+                </tr>
+	
+			</tbody>
+			
+		</table>
+	
